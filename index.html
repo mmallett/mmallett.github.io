@@ -13,8 +13,8 @@
     <title>Matt Mallett</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/simple-line-icons/css/simple-line-icons.css">
 
     <link href="css/style.css" rel="stylesheet">
 
@@ -24,13 +24,41 @@
 
     <div class="home">
 
-      <p>My name is <span>Matt Mallett</span></p>
-      <p>I am a <span>software engineer</span></p>
+      <p class="title">My name is <span>Matt Mallett</span></p>
+      <p class="title">I'm a <span>software engineer</span></p>
 
       <div class="button-container">
-        <button class="button" type="button">Tell me more</button>
+        <button id="show-more" class="button" type="button">Tell me more</button>
         <a class="button" href="#">Projects</a>
         <a class="button" href="#">Resume</a>
+      </div>
+
+      <div class="more">
+        <p>I'm currently a software engineer with IBM in the Greater New
+          York City area, as well as a master's student in computer science at
+          Columbia University.</p>
+
+          <p>
+          I'm a member of the Bluemix PaaS offering team
+          at IBM, where I mainly do full stack web development with the
+          ACNE stack (Angular.js, Cloudant, Node.js, Express), but I've also done
+          a lot of development with Ruby (Sinatra apps) and PostgreSQL. Some other
+          roles I've taken on in my time here include intern team leader and mentor,
+          go to guy for CSS and UI questions, devops/continuous deployment pipeline
+          builder, git expert, and agile aficionado.
+        </p>
+
+        <p>
+          As a student at Columbia, I've focused mainly on application and
+          systems programming, with an underlying focus on security. I've taken
+          courses on cloud computing, databases, graphics, systems and network
+          security, and linux kernel development.
+        </p>
+
+        <p>
+          In my freetime I enjoy cats, pizza, running and gaming.
+        </p>
+
       </div>
 
     </div>
@@ -41,9 +69,10 @@
       <a class="social" href="https://www.linkedin.com/in/mathewmallett"><i class="icon-social-linkedin"></i></a>
     </div>
 
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
 
   </body>
 </html>
