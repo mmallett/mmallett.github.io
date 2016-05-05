@@ -6,18 +6,26 @@ C9DE55
 7D9100
 */
 
+html{
+  min-height: 100%;
+}
+
 body{
   background-color: #7d9100;
-  padding-bottom: 50px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: flex;
 }
 
 .home{
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 250px;
   text-align: center;
   padding: 0px 15px;
+  margin: auto
 }
 
 .home p.title{
@@ -34,10 +42,12 @@ body{
 
 .home .button-container{
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .home .button-container .button{
-  display: inline-block;
   padding: 10px 20px;
   background-color: inherit;
   color: #354242;
@@ -48,6 +58,18 @@ body{
   transition: linear .2s;
   border-radius: 10px;
   outline: 0px;
+  flex-grow: 1;
+  width: 30%;
+}
+
+@media (max-width: 625px){
+  .home .button-container{
+    flex-direction: column;
+  }
+
+  .home .button-container .button{
+    width: inherit;
+  }
 }
 
 .home .button-container .button:hover{
@@ -73,8 +95,6 @@ body{
 }
 
 .footer{
-  position: fixed;
-  bottom: 0px;
   width: 100%;
   text-align: center;
   border-top: 2px;
