@@ -104,6 +104,7 @@ body{
   border-image-slice: 1;
   border-bottom: 0px;
   background-color: inherit;
+  margin-top: 40px;
 }
 
 .footer .social{
