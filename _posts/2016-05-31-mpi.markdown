@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "MPI"
+date:   2016-05-30 21:39:15 -0400
+categories: projects
+---
+
+My senior year of undergrad, I took a course in MPI (message passing interface).
+It was eye-opening. It was the first time I was faced with truly challenging
+programming problems, and it forced me to greatly expand my understanding of
+C programming, and algorithms in general. In this class I learned, through
+necessity, the importance of testing, builds, and good logging and debugging
+skills.
+
+Throughout the semester, we developed 3 major programs
+
+### N-Queens problem
+The N-Queens problem is a puzzle where you try to find placements for
+n queens on an n x n chess board, such that none of the n queens are attacking
+each other.
+
+[GitHub](https://github.com/mmallett/cpre426/tree/master/prog1/nqueen-serial.c)
+
+### Parallel Quicksort
+Developed a quicksort algorithm that spreads the load across the school's 32
+node cluster.
+
+[GitHub](https://github.com/mmallett/cpre426/blob/master/prog2/sort.c)
+
+### Conway's Game of Life
+Develop an MPI implementation of Conway's Game of Life, which is a set of
+rules that generates automata by simulating "generations" of "life"
+
+[GitHub](https://github.com/mmallett/cpre426/blob/master/prog3/life.c)
