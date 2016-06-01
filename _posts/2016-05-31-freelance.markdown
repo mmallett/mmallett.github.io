@@ -18,7 +18,6 @@ Some of my work
 [![NY Vision Center][nyvision]](http://nyvisioncenter.com/)
 [![At Home Senior Care][seniorcare]](http://athomeseniorcare.com/)
 
-
 [limo]: /img/limo.png
 [nyvision]: /img/nyvision.png
 [seniorcare]: /img/seniorcare.png

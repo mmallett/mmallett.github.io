@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Sonic"
+date:   2016-05-30 21:39:21 -0400
+categories: projects
+---
+
+[![Sonic](http://img.youtube.com/vi/qHMockap21M/0.jpg)](http://www.youtube.com/watch?v=qHMockap21M)
+
+[BitBucket](https://bitbucket.org/mmallett91/sonic/src)
+
+For the final project in Computer Graphics, I decided to make a game in tribute to Sonic the Hedgehog.
+It plays somewhat like Temple Run, or the "tube levels" from Sonic 2. The goal of
+the game is to collect enough rings to fill the bar before you reach the end of the
+level.
+
+The game is written in Java and straight OpenGL, with very small libraries to assist
+with sound and textures. I borrowed some textures from Sonic GBA games, and from
+Minecraft. I had a lot of fun with this project, and actually accomplished quite
+a lot in a short time period (we had about 10 days to work on the project).
