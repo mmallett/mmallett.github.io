@@ -185,6 +185,9 @@ body{
 .page .post-list .post-excerpt{
 
 }
+.page .post-list img{
+  max-width: 100%;
+}
 
 .post .post-title{
   font-size: 1.5em;
