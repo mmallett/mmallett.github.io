@@ -5,7 +5,7 @@ date:   2016-05-30 21:39:25 -0400
 categories: projects
 ---
 
-[Beats By Kev]({{site.url}}/img/beatsbykev.PNG)
+![Beats By Kev]({{site.url}}/img/beatsbykev.PNG)
 
 [GitHub](https://github.com/mike14511/Beats-By-Kev)
 
